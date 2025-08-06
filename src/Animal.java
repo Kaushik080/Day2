@@ -1,4 +1,4 @@
-public class Animal{
+abstract public class Animal{
     private String name;
 
     public Animal(){
@@ -11,12 +11,10 @@ public class Animal{
     }
 
     public void eat(){
-        System.out.println("My cat is eating");
+        System.out.println("eating");
     }
 
-    public void makeNoise(){
-        System.out.println("makes noise");
-    }
+    public abstract void makeNoise();
 
     public void roam(){
         System.out.println("is roaming");
@@ -29,4 +27,5 @@ public class Animal{
     public void setName(String name) {
         this.name = name;
     }
+
 }
