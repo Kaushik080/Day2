@@ -1,9 +1,9 @@
 import interfaces.MathOperation;
 
-public class Multiply implements MathOperation {
+public class Add implements MathOperation {
 
     @Override
     public int operate(int a, int b) {
-        return (a*b);
+        return (a + b);
     }
 }

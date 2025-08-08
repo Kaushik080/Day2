@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
+import java.util.function.Consumer;
 
-public class FunctionalInterface {
-}
+
